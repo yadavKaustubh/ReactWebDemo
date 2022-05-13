@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
-import NotFound from './Pages/NotFound';
 import Navbar from './Navbar';
 import './App.css';
 
@@ -19,7 +18,7 @@ const App= () => {
                 <Route path= "/about" element= {<About/>}/>
                 <Route path= "/contact" element= {<Contact/>}/>
                 <Route path= "/projects" element= {<Projects/>}/> 
-                <Route path = '*' element = {<NotFound/>}/>             
+                <Route path = '*' element = {<Home/>}/>             
             </Routes> 
         </Router>
         </>
