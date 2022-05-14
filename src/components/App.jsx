@@ -5,7 +5,7 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Navbar from './Navbar';
-import NotFound from './NotFound';
+import NotFound from './Pages/NotFound';
 import './App.css';
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
