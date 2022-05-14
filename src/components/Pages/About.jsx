@@ -11,8 +11,9 @@ const About= () => {
                         <div className="row">
                         <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                             <h1> Grow your business with <strong className="brand-name">TCS</strong></h1>
-                            <h3 className="my-3"> Learn more about our Projects</h3>
+                            
                             <h4 className="my-1"> Tata Consultancy Services is a global leader in IT services, consulting & business solutions with a large network of innovation & delivery centers</h4>
+                            <h3 className="my-3"> Learn more about our Projects</h3>
                             <div className="mt-3">
                                 <NavLink to= "/projects" className="btn btn-primary btn-get-started">
                                     Projects
